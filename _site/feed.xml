@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Farzin Mohammadi Homepage</title>
+    <description>Personal homepage of me :D &lt;br&gt;  &lt;a href=&quot;http://cse.shirazu.ac.ir&quot; target=&quot;_blank&quot;&gt;CSE Department of Shiraz University&lt;/a&gt;</description>
+    <link>http://farzinlize.github.io/</link>
+    <atom:link href="http://farzinlize.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Fri, 30 Dec 2016 20:00:54 +0330</pubDate>
+    <lastBuildDate>Fri, 30 Dec 2016 20:00:54 +0330</lastBuildDate>
+    <generator>Jekyll v2.2.0</generator>
+    
+      <item>
+        <title>About</title>
+        <description>&lt;p&gt;My name is Farzin Mohammadi and i was born in hamadan, a historical city of iran.&lt;/p&gt;
+
+&lt;p&gt;You can find my interest and works here and also see my CV.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;public/cv.pdf&quot;&gt;Curriculum Vitae&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 30 Dec 2016 21:45:35 +0330</pubDate>
+        <link>http://farzinlize.github.io/2016/12/30/welcome-to-jekyll/</link>
+        <guid isPermaLink="true">http://farzinlize.github.io/2016/12/30/welcome-to-jekyll/</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
