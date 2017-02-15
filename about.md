@@ -29,7 +29,7 @@ title: About
 </ul>
 </li>
 </ul>
-<p>Art always is a important part of my life. Since childhood, I learn and play diffrent music styles included Rock, Classic, Country and&nbsp;Traditional. My professinal musical instrument is Fute, Guitar and Setar. If I didn't go to engineering school for studying Computer engineering, then I&nbsp;would go to Art School for studying Graphics. I enjoy working with Photoshop and other designing tool and have huge interest in directiong and editing&nbsp;movies. here is my&nbsp;Cultural experience:</p>
+<p>Art always is a important part of my life. Since childhood, I learn and play diffrent music styles included Rock, Classic, Country and&nbsp;Traditional. My professinal musical instrument is Flute, Guitar and Setar. If I didn't go to engineering school for studying Computer engineering, then I&nbsp;would go to Art School for studying Graphics. I enjoy working with Photoshop and other designing tool and have huge interest in directiong and editing&nbsp;movies. here is my&nbsp;Cultural experience:</p>
 <ul>
 <li>Secretary of Shiraz University Film club&nbsp;|&nbsp;2015-2016 two semester
 <ul>
