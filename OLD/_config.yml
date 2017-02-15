@@ -1,0 +1,28 @@
+# Site settings
+title: Farzin Mohammadi Homepage
+email: farzinlize@live.com
+description: 'Personal homepage of me :D <br>  <a href="http://cse.shirazu.ac.ir" target="_blank">CSE Department of Shiraz University</a>'
+baseurl: ""
+url: "http://farzinlize.github.io"
+twitter_username: farzin_mohammadi
+github_username:  farzinlize
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: false
+
+# Setup
+paginate:            5
+
+# About/contact
+author:
+  name: Farzin Mohammadi
+
+# Custom vars
+version:             1.0.0
