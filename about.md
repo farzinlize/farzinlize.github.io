@@ -57,4 +57,4 @@ title: About
 </ul>
 <p>&nbsp;</p>
 </div>
-[Curriculum Vitae](public/cv.pdf)
+[Curriculum Vitae]({{ site.baseurl }}public/cv.pdf)
