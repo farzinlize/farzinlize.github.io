@@ -1,0 +1,61 @@
+
+#fan-container{
+    position: absolute;
+    left: 40%;
+    top: 20%;
+}
+
+#info{
+    position: absolute;
+    left: 70%;
+    top:5%;
+}
+
+.text-container{
+    width: 38%;
+}
+
+.bg {
+    background-color: #edb92b;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 42px;
+    font-family: Roboto;
+    padding-left: 50px;
+    padding-top: 5vh;
+}
+
+h2 {
+    font-size: 36px;
+    font-family: Roboto;
+    font-weight: bolder;
+    padding-left: 50px;
+}
+
+p {
+    font-family: Roboto;
+    font-size: 28px;
+    padding-left: 50px;
+}
+
+button {
+	color: #ffffff;
+    position: relative;
+    left: 50px;
+	background-color: #000000;
+	font-size: 60px;
+	border-radius: 10px;
+	padding: 15px 50px;
+    cursor: pointer
+}
+
+button:hover {
+	color: #523800;
+	background-color: #ffffff;
+}
