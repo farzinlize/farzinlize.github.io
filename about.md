@@ -4,7 +4,7 @@ title: About
 ---
 <div>
 <img src="{{ site.baseurl }}public/pic-of-me.jpg" alt="Pic of me">
-<p>My name is Farzin Mohammadi and I was born in Hamadan, a historical city of Iran. I passed my primery education in Hamdan then I moved to Shiraz for studying Hardware engineering at Shiraz University since 2014. here is my Education summery:</p>
+<p>My name is Farzin Mohammadi and I was born in Hamadan, a historical city of Iran. I passed my primery education in Hamdan then I moved to Shiraz for studying Hardware engineering at Shiraz university since 2014. here is my Education summery:</p>
 <ul>
 <li>BSc in Computer Science and Engineering | <a href="http://shirazu.ac.ir/" target="_blank">Shiraz University</a> |&nbsp;2014-present&nbsp;
 <ul>

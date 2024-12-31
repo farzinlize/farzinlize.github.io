@@ -1,37 +1,37 @@
-<!DOCTYPE html><html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="fuzzy.css">
-</head>
+---
+layout: default
+title: Home
+---
 
-<body>
+<div class="posts">
+  {% for post in paginator.posts %}
+  <div class="post">
+    <h1 class="post-title">
+      <a href="{{ site.baseurl }}{{ post.url | remove_first: '/'}}">
+        {{ post.title }}
+      </a>
+    </h1>
 
-<div class="text-container">
-    <h1>What Is An Energy Audit?</h1>
-    <p>An Energy Audit is a survey conducted by an Energy Auditor to determine how much energy a building uses and identify ways to reduce energy consumption. These are used to improve the energy efficiency of homes, businesses, and other buildings</p>
-    <br><br>
-    <h2><a href="./login.html">Energy Audit Tool</a></h2>
-    <button onclick="goLogin()">Login</button><br><br>
-    <h2>Air Source Heat Pump sizing and selection</h2>
-    <button onclick="goAshp()">ASHP</button>
+    <span class="post-date">{{ post.date | date_to_string }}</span>
+
+    {{ post.content }}
+  </div>
+  {% endfor %}
 </div>
 
-<button id="info">more info</button>
-
-<div id="fan-container">
-    <img src="heatpump.svg" />
+<div class="pagination">
+  {% if paginator.next_page %}
+    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
+  {% else %}
+    <span class="pagination-item older">Older</span>
+  {% endif %}
+  {% if paginator.previous_page %}
+    {% if paginator.page == 2 %}
+      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
+    {% else %}
+      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
+    {% endif %}
+  {% else %}
+    <span class="pagination-item newer">Newer</span>
+  {% endif %}
 </div>
-
-<script type="text/javascript">
-    function goLogin() {
-        location.href = "./login.html"
-    }
-
-    function goAshp()  {
-        // location.href = "./ashp.html"
-    }
-</script>
-
-</body>
-
-</html>
